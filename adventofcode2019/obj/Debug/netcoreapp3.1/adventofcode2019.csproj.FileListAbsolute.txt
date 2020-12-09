@@ -1,0 +1,12 @@
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/bin/Debug/netcoreapp3.1/adventofcode2019.deps.json
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/bin/Debug/netcoreapp3.1/adventofcode2019.runtimeconfig.json
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/bin/Debug/netcoreapp3.1/adventofcode2019.runtimeconfig.dev.json
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/bin/Debug/netcoreapp3.1/adventofcode2019.dll
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/bin/Debug/netcoreapp3.1/adventofcode2019.pdb
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.csprojAssemblyReference.cache
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.AssemblyInfoInputs.cache
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.AssemblyInfo.cs
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.csproj.CoreCompileInputs.cache
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.dll
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.pdb
+/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/obj/Debug/netcoreapp3.1/adventofcode2019.genruntimeconfig.cache
