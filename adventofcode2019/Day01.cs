@@ -1,5 +1,4 @@
 using System;
-using System.ComponentModel;
 using System.IO;
 using System.Linq;
 
@@ -7,46 +6,42 @@ namespace adventofcode
 {
     class Day01
     {
-        public static void start()
+        public static void Start()
         {
-            part1();
-            part2();
+            Part1();
+            Part2();
         }
 
-        static void part1()
+        private static void Part1()
         {
             var fuel = ComponentFuel();
             Console.WriteLine($"Day 01: Total fuel needed is {fuel}."); // 3363033
         }
 
-        static void part2()
+        private static void Part2()
         {
             var fuel = ComponentFuel2();
             Console.WriteLine($"Day 01: Total fuel needed is {fuel}."); // 5041680
         }
 
-        static int ComponentFuel()
+        private static int ComponentFuel()
         {
             return File.ReadLines("input/1").Select(Int32.Parse).Select(x => (x / 3) - 2).Sum();
         }
 
-        static int ComponentFuel2()
+        private static int ComponentFuel2()
         {
             var totalFuel = 0;
-            var components = File.ReadLines("input/1").Select(Int32.Parse);
 
-            foreach (var component in components)
+            foreach (var component in File.ReadLines("input/1").Select(Int32.Parse))
             {
                 var fuel = (component / 3) - 2;
                 totalFuel += fuel;
 
-                var extraFuel = (fuel / 3) - 2;
-
-                while (extraFuel > 0)
+                while (fuel > 0)
                 {
-                    Console.WriteLine($"{extraFuel}.");
-                    totalFuel += extraFuel;
-                    extraFuel = (extraFuel / 3) - 2;
+                    fuel = (fuel / 3) - 2;
+                    totalFuel += fuel;
                 }
             }
 
