@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             // Day01.Start();
-            (new Day02()).Start();
-            // Day03.Start();
+            // (new Day02()).Start();
+            (new Day03()).Start();
             // Day04.Start();
             // Day05.Start();
             // Day06.Start();

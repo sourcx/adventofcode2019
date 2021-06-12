@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TbrMYAPZg9gJJ4FJXr1bBdIhb07XNKhvPSJUcmH3n8tDh2LiVKibbNHZPFn5XMeA7P0sOTSgV5hEnSUcwOHGfw==",
+  "dgSpecHash": "PSs9CD46ri6WUP3gNtQGKZUU6o7b6IBWSOE3O5lh0Y/PxGWYuoR/Qiv1XbMg1565qxQadfmF04yhil8GNwPNsA==",
   "success": true,
   "projectFilePath": "/Users/frank/Code/github/sourcx/adventofcode2019/adventofcode2019/adventofcode.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/frank/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
